@@ -1,0 +1,296 @@
+/* =================== -Media-for-4k- =================== */
+
+
+@media screen and (min-width: 1199.98px) {
+
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    /*=========== -header-media-start- =========== */
+    .header-title h1 {
+        font-size: 20px;
+    }
+
+    .header-search-components {
+        max-width: 200px;
+    }
+
+    .sidenav > ul > li > .header-menu-box {
+        padding: 5px;
+    }
+
+    /*=========== -header-media-end- =========== */
+
+}
+
+
+@media screen and (max-width: 991.98px) {
+    /*=========== -header-media-start- =========== */
+    .header-bottom {
+        background-color: rgba(25, 25, 25, 0.502);
+        margin: 10px -15px 0;
+        padding: 8px 15px;
+    }
+
+    .open-menu span:nth-child(2), .open-menu span:nth-child(3) {
+        top: 15px;
+    }
+
+    .open-menu span:last-child {
+        top: 30px;
+    }
+
+    .open-menu {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        z-index: 99999;
+    }
+
+
+    .header-change-language ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+
+    .menu-cnt {
+        margin: 0;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding: 25px 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        background-color: rgb(7, 128, 160);
+    }
+
+    .menu-cnt ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .header-menu-block {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .header-supports .header-map {
+        display: none;
+    }
+
+    .header-bottom .header-map {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .header-menu-block, .header-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-bottom .header-map .discount-map {
+        margin-left: 40px;
+    }
+
+    .header-title h1 span {
+        display: block;
+        margin-left: 25px;
+    }
+
+    .header-search-components {
+        max-width: 370px;
+    }
+
+    .header-support-components, .header-globe-btn, .header-information, .header-course {
+        margin-left: 10px;
+    }
+
+    .header-language-selected {
+        left: 60%;
+    }
+
+    /*=========== -header-media-end- =========== */
+    /*=============================best-deals-style-start============================*/
+
+    .best-deals-components:first-child {
+        display: none;
+    }
+
+    .best-deals-components:nth-child(2) {
+        display: block;
+    }
+
+    .best-deals-img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .best-deals-text h3 {
+        font-size: 16px;
+    }
+
+    /*=============================best-deals-style-end============================*/
+
+}
+
+@media screen and (max-width: 767.98px) {
+    /*=========== -header-media-start- =========== */
+    .header-title h1 span {
+        margin-left: 25px;
+    }
+
+    .header-top, .header-bottom .header-map {
+        display: none;
+    }
+
+    .header-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    .header-bottom .header-logo {
+        display: block;
+        margin: -15px 0 -15px 10px;
+    }
+
+    .header-menu-block .header-logo a {
+        width: 125px;
+        height: 70px;
+    }
+
+    .header-bottom-mobile-block {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-btn-mobile {
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .header-search-block {
+        margin: 0 15px;
+    }
+
+    .header-block {
+        padding: 10px 0;
+    }
+
+    /*=========== -header-media-start- =========== */
+    /*=============================best-deals-style-start============================*/
+    .best-deals-components:first-child {
+        margin-bottom: 60px;
+    }
+
+    .padding-product {
+        width: 50%;
+    }
+
+    .padding-product:last-child {
+        margin: 15px auto 0;
+    }
+
+    .padding-best-deals {
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    /*=============================best-deals-style-end============================*/
+
+}
+
+
+@media screen and (max-width: 575.98px) {
+
+    /* ============ -STATIC-STYLE-CSS-START- ============*/
+    .static-title h3 {
+        font-size: 30px;
+    }
+
+
+    /* ============ -STATIC-STYLE-CSS-END- ============*/
+    /*=============================best-deals-style-start============================*/
+    .best-deals-components:first-child {
+        margin-bottom: 30px;
+    }
+
+    .padding-product {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .best-deals-slider {
+        margin-top: 30px;
+    }
+
+    .best-deals-cnt {
+        padding: 30px 0;
+    }
+
+    .padding-best-deals {
+        width: 100%;
+    }
+
+    .best-deals-car-seat-img {
+        width: 140px;
+        height: 170px;
+    }
+
+    .best-deals-text h3, .sale, .casamode, .model-name {
+        font-size: 15px;
+    }
+
+    .model-new-price:before {
+        left: -5px;
+    }
+
+    .best-deals-slider .slick-prev {
+        margin-right: 10px;
+    }
+
+    .best-deals-slider .slick-next {
+        margin-left: 10px;
+    }
+
+    /*=============================best-deals-style-end============================*/
+}
